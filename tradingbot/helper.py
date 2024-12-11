@@ -3,7 +3,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
 def load_file():
-    loader = PyPDFLoader("C:\\Users\\svani\\OneDrive\\Documents\\Inueron-7-projects\\Trading-Chatbot\\data\\finance_data.pdf")
+    loader = PyPDFLoader("C:\\Users\\svani\\OneDrive\\Documents\\I7-projects\\Trading-Chatbot\\data\\finance_data.pdf")
     pages = loader.load()
 
     raw_text = ''
